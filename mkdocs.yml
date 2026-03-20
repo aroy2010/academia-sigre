@@ -1,0 +1,42 @@
+site_name: Academia SIGRE
+site_description: Documentación oficial y manual operativo del Sistema de Gestión de Residentado (SIGRE) - INCOR.
+site_author: OAIYDE - INCOR
+
+theme:
+  name: material
+  language: es
+  palette:
+    # Modo claro por defecto
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs # Menú superior horizontal
+    - navigation.sections # Secciones desplegables en la izquierda
+    - navigation.top # Botón para volver arriba
+    - search.suggest # Sugerencias al buscar
+    - search.highlight # Resaltar palabras buscadas
+    - content.code.copy # Botón para copiar código
+
+# Plugins necesarios (El buscador viene por defecto)
+plugins:
+  - search
+  - tags
+
+# Aquí definiremos el menú lateral izquierdo (Lo armaremos con tus notas de Obsidian)
+nav:
+  - Inicio: index.md
+  - Pasos iniciales:
+    - Inicio sesión: acceso_sistema.md
