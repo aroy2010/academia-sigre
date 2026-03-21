@@ -34,9 +34,17 @@ theme:
 plugins:
   - search
   - tags
+  - callouts
 
 # Aquí definiremos el menú lateral izquierdo (Lo armaremos con tus notas de Obsidian)
 nav:
   - Inicio: index.md
   - Pasos iniciales:
     - Inicio sesión: acceso_sistema.md
+  - Acerca del Sistema:
+    - Créditos y Agradecimientos: creditos.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
