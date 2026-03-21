@@ -1,1 +1,1 @@
-{"mappings": [{"item": {"url": "acceso_sistema/", "title": "Inicio sesi\u00f3n"}, "tags": ["#usuarios", "acceso", "roles", "seguridad"]}]}
+{"mappings": [{"item": {"url": "", "title": "Inicio"}, "tags": ["bienvenida", "inicio", "manual"]}, {"item": {"url": "acceso_sistema/", "title": "Inicio sesi\u00f3n"}, "tags": ["#usuarios", "acceso", "roles", "seguridad"]}]}
