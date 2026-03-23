@@ -41,6 +41,10 @@ nav:
   - Inicio: index.md
   - Pasos iniciales:
     - Inicio sesión: acceso_sistema.md
+  - Registro: registro.md
+  - Evaluación rotaciones:
+      - evaluacion_residentes.md
+      - monitoreo_evaluaciones.md
   - Acerca del Sistema:
     - Créditos y Agradecimientos: creditos.md
 
