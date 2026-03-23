@@ -1,0 +1,831 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación oficial y manual operativo del Sistema de Gestión de Residentado (SIGRE) - INCOR.">
+      
+      
+        <meta name="author" content="OAIYDE - INCOR">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Registro de Solicitudes y Usuarios - Academia SIGRE</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#registro-de-solicitudes-y-usuarios" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Academia SIGRE" class="md-header__button md-logo" aria-label="Academia SIGRE" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Academia SIGRE
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Registro de Solicitudes y Usuarios
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="red"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="red"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../acceso_sistema/" class="md-tabs__link">
+          
+  
+  
+  Pasos iniciales
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../creditos.md" class="md-tabs__link">
+          
+  
+  
+  Acerca del Sistema
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Academia SIGRE" class="md-nav__button md-logo" aria-label="Academia SIGRE" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Academia SIGRE
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pasos iniciales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pasos iniciales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acceso_sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio sesión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acerca del Sistema
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Acerca del Sistema
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../creditos.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Créditos y Agradecimientos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-registro-de-solicitudes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📄 1. Registro de solicitudes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📄 1. Registro de solicitudes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modulo-registro-de-solicitudes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Módulo: Registro de Solicitudes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asignacion-de-los-cupos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asignación de los cupos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-registro-de-usuarios-al-sigre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👤 2. Registro de Usuarios al SIGRE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👤 2. Registro de Usuarios al SIGRE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#proceso-de-registro-de-un-nuevo-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proceso de Registro de un Nuevo Usuario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recuperar-contrasenas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🙆🏽 Recuperar contraseñas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <span class="md-tag">gestion-usuarios</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">mod-registro</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">rol-admin-incor</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">rol-superadmin</span>
+      
+    
+  </nav>
+
+
+
+<h1 id="registro-de-solicitudes-y-usuarios">Registro de Solicitudes y Usuarios</h1>
+<p>El módulo de <strong>Registro de Solicitudes</strong> es el centro de recepción de las solicitudes en el SIGRE. En esta sección, el personal de la OAIYDE gestiona dos flujos de trabajo críticos:</p>
+<ol>
+<li>Las solicitudes de rotación enviadas por los médicos residentes.</li>
+<li>Las solicitudes de registro de nuevos usuarios al SIGRE.</li>
+</ol>
+<hr />
+<h2 id="1-registro-de-solicitudes">📄 1. Registro de solicitudes</h2>
+<p>El registro de las solicitudes se realiza una vez que la documentación física ha sido entregada a la Asistente Administrativa de la OAIYDE, quien ingresara como usuaria institucional al SIGRE, para registrar las solicitudes en el sistema.</p>
+<h3 id="modulo-registro-de-solicitudes">Módulo: Registro de Solicitudes</h3>
+<p>Sea mediante la tarjeta <em>"Registro de Solicitudes"</em> (Figura 1) o activando en el menú <strong>Gestión Institucional &gt; Registro Solicitudes</strong> (Figura 2), se ingresa al formulario de registro de solicitudes. </p>
+<div style="text-align: center;">
+  <img src="docs/images/Figura_A.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 1: Vista de la bandeja principal del sistema.</i>
+  </div>
+</div>
+
+<div style="text-align: center;">
+  <img src="docs/images/Figura_B.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 2: Acceso al módulo de Registro de solicitudes a través del menú.</i>
+  </div>
+</div>
+
+<p>Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán los siguientes pasos:</p>
+<ol>
+<li>Se activará el formulario solicitando el número de DNI, que una vez ingresado, se procederá a activar el botón <strong>Buscar</strong> (Figura 3).</li>
+</ol>
+<div style="text-align: center;">
+  <img src="docs/images/Figura_C.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 1: Vista de la bandeja principal del sistema.</i>
+  </div>
+</div>
+
+<ol>
+<li>El sistema identificará si se trata de un <strong>"Solicitante Nuevo"</strong> o una <strong>"Solicitud Nueva"</strong>. Lo que determinará el contenido del formulario que aparezca para registro, de acuerdo a lo siguiente:<ul>
+<li><em>Solicitante nuevo</em>: Aparecerán el formulario completo, que incluye datos de identificación, formación, universidad, sede docente y de la solicitud a la que pretende acceder el solicitante (Ver Figuras 4 y 5).</li>
+</ul>
+</li>
+</ol>
+<div style="text-align: center;">
+  <img src="docs/images/Residente_nuevo.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 4: Mensaje indicando que el solicitante es nuevo.</i>
+  </div>
+</div>
+
+<div style="text-align: center;">
+  <img src="docs/images/Formulario_residente_nuevo.png" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 5: Formulario para registrar nuevo solicitante.</i>
+  </div>
+</div>
+
+<ul>
+<li><em>Solicitud nueva</em>: Se desplegaran los mismos campos descritos previamente, pero con los datos del solicitante al que corresponde el DNI ingresado, solo los campos de la solicitud estarán en blanco y serán llenados con los datos de la nueva solicitud (Figura 6 y 7).</li>
+</ul>
+<div style="text-align: center;">
+  <img src="docs/images/Residente_antiguo.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 6: Mensaje indicando que el solicitante es antiguo.</i>
+  </div>
+</div>
+
+<div style="text-align: center;">
+  <img src="docs/images/Formulario_residente_antiguo.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 7: Formulario para registrar solicitante antiguo.</i>
+  </div>
+</div>
+
+<ol>
+<li>Luego de ingresar los datos correspondientes, la solicitud quedará registrada luego de activar el botón <strong>"Registrar"</strong>.</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Búsqueda Rápida</p>
+<p>Utilice la caja de búsqueda en la parte superior de la tabla para encontrar rápidamente a un residente por su DNI o apellido.</p>
+</div>
+<h3 id="asignacion-de-los-cupos">Asignación de los cupos</h3>
+<p>La solicitud registrada deberá ser revisada y contrastada con los registros de rotaciones asignadas y se decidirá el otorgamiento en la OAIYDE. El módulo para este procesamiento se desarrolla en <a href="3-asignacion.md">Asignación de Cupos</a>.</p>
+<hr />
+<h2 id="2-registro-de-usuarios-al-sigre">👤 2. Registro de Usuarios al SIGRE</h2>
+<p>Por ser la primera implementación del sistema y considerando que su uso es exclusivamente institucional, todos los usuarios pertenecen al INCOR y tendrán acceso según los listados de profesionales y residentes que maneja la OAIYDE al momento del lanzamiento.</p>
+<p>Como la lista en la que se base la creación de cuentas de usuarios, puede no ser lo suficientemente exhaustiva, se ha habilitado la opción de solicitar una cuenta de usuario. El proceso se describe a continuación.</p>
+<h3 id="proceso-de-registro-de-un-nuevo-usuario">Proceso de Registro de un Nuevo Usuario</h3>
+<ol>
+<li><strong>Formulario de Solicitud:</strong> En la parte inferior de la ventana de Acceso, aparece la opción de solicitar el registro.  Proceder a activarlo y aparecerá un pequeño formulario (Figura 8).</li>
+<li><strong>Llenar el formulario de solicitud:</strong> El interesado procederá a completar los datos solicitados y enviar su solicitud (Figura 9).</li>
+<li><strong>Respuesta a la solicitud:</strong> En caso corresponda brindar el acceso al solicitante, en un plazo no mayor de 72 horas hábiles, el acceso será habilitado. El administrador del Sistema puede solicitar información complementaria en caso sea necesario.</li>
+</ol>
+<div style="text-align: center;">
+  <img src="docs/images/Figura_D.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 8: Activar la solicitud para nuevo usuario.</i>
+  </div>
+</div>
+
+<div style="text-align: center;">
+  <img src="docs/images/Figura_E.webp" alt="Bandeja de entrada">
+  <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
+    <i>Figura 9: Formulario para solicitar registro nuevo usuario.</i>
+  </div>
+</div>
+
+<h3 id="recuperar-contrasenas">🙆🏽 Recuperar contraseñas</h3>
+<p>En caso olvide su contraseña o su usuario, puede recuperarla por dos vías:</p>
+<ol>
+<li>Enviar una mensaje vía <a href="https://wa.me/51954959827?text=Hola,%20necesito%20recuperar%20mi%20usuario%20o%20contraseña%20del%20SIGRE." target="_blank">WhatsApp</a>.</li>
+<li>Enviar un mensaje de correo electrónico a oaiydeincor@gmail.com</li>
+</ol>
+<p>El equipo de la OAIYDE le responderá a la brevedad.👩🏻‍💻</p>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
