@@ -20,17 +20,17 @@ El SIGRE es una iniciativa independiente de la Oficina de Apoyo a la *Investigac
 Seleccione el módulo sobre el cual necesita asistencia:
 
 ### 🔐 1. Empezar a usar el sistema
-* [Acceso y Seguridad](1-acceso.md): Cómo iniciar sesión, recuperar su contraseña y comprender los niveles de acceso (roles).
+* [Acceso y Seguridad](acceso_sistema.md): Cómo iniciar sesión, recuperar su contraseña y comprender los niveles de acceso (roles).
 
 ### 📁 2. Gestión de Expedientes
-* [Registro de Solicitudes](2-registro.md): Guía para administradores sobre cómo revisar, aceptar o rechazar los expedientes enviados por los residentes.
-* [Asignación de Cupos](3-asignacion.md): Cómo distribuir las vacantes docentes disponibles en los diferentes servicios del INCOR.
+* [Registro de Solicitudes](registro.md): Guía para administradores sobre cómo revisar, aceptar o rechazar los expedientes enviados por los residentes.
+* [Asignación de Cupos](asignacion.md): Cómo distribuir las vacantes docentes disponibles en los diferentes servicios del INCOR.
 
 ### 🩺 3. Docencia y Calificación
-* [Evaluación de Residentes](4-evaluacion.md): Instrucciones para tutores y médicos asistentes sobre cómo calificar las competencias, habilidades y actitudes del residente al finalizar su rotación.
+* [Evaluación de Residentes](evaluacion_residentes.md): Instrucciones para tutores y médicos asistentes sobre cómo calificar las competencias, habilidades y actitudes del residente al finalizar su rotación.
 
 ### 📊 4. Control y Seguimiento
-* [Monitoreo y Estadísticas](5-monitoreo-estadisticas.md): Herramientas para jefes de servicio y coordinadores para visualizar el avance de las evaluaciones y el Rol de Rotaciones mensual.
+* [Monitoreo y Estadísticas](monitoreo-evaluaciones.md): Herramientas para jefes de servicio y coordinadores para visualizar el avance de las evaluaciones y el Rol de Rotaciones mensual.
 
 ---
 
