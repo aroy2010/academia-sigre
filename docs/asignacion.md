@@ -36,14 +36,16 @@ El acceso al subsistema de Gestión Institucional del SIGRE esta descrito en [Ac
 Sea mediante la tarjeta *"Asignación de cupos"* (Figura 1) o activando en el menú **Gestión Institucional > Asignación Cupos** (Figura 2), se ingresa a la del módulo. 
 
 
-![Bandeja de entrada](images/Asignacion_cupos.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Asignacion_cupos.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vista de la bandeja principal del sistema.</i>
   </div>
 
 
 
-![Bandeja de entrada](images/Asignacion_cupos_menu.webp) {: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Asignacion_cupos_menu.webp) {: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 2: Acceso al módulo de Registro de solicitudes a través del menú.</i>
   </div>
@@ -54,7 +56,8 @@ Sea mediante la tarjeta *"Asignación de cupos"* (Figura 1) o activando en el me
 Luego de ingresar al módulo **Asignación de Cupos**, aparecerá un recuadro con una lista desplegable, donde deberá seleccionar una DIDAE (Figura 3).
 
 
-![Bandeja de entrada](images/Selecciona_didae.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Selecciona_didae.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 3: Selección de la DIDAE para resolver las solicitudes pendientes.</i>
   </div>
@@ -69,7 +72,8 @@ Aparecerá un cuadro con el conteo de plazas por cada servicio para los 12 meses
 El detalle lo podemos ver en la Figura 4.
 
 
-![Bandeja de entrada](images/Cuadro_cupos_pendientes.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Cuadro_cupos_pendientes.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 4: Cuadro de disponibilidad y solicitudes pendientes.</i>
   </div>
@@ -83,7 +87,8 @@ La asignación de las solicitudes pendientes, se inicia activando el recuadro co
 
 La aceptación de la solicitud requiere hacer clic en el botón verde y el rechazo requiere seleccionar el motivo del rechazo y activar el botón rojo (Figura 5).
 
-![Bandeja de entrada](images/Figura_5.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_5.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 5: Secuencia para revisar las solicitudes pendientes. La parte derecha muestra la activación del recuadro amarillo y la parte izquierda la información y opciones para tomar determinar la asignación.</i>
   </div>

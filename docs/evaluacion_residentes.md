@@ -24,7 +24,8 @@ Los evaluadores son profesionales de la salud designados para evaluar a los resi
 
 Al [ingresar al sistema](acceso_sistema.md) con su rol de **Evaluador**, proceda a activar la tarjeta **"Evaluación Residentes"** o a través del menú **Gestión Institucional > Evaluación**, tal como se muestra en la figura 1.
 
-![Bandeja de entrada](images/Figura_1.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_1.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vías de acceso al módulo de Evaluación Residentes.</i>
   </div>
@@ -41,7 +42,8 @@ Luego de completarse la carga de la página del módulo, para evaluar a los resi
 2. En el recuadro de los nombres de los residentes a evaluar, active el botón *"Iniciar evaluación"* (Figura 2).
 
 
-![Bandeja de entrada](images/Figura_2.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_2.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 2: Vista del panel del evaluador del Módulo de Evaluación.</i>
   </div>
@@ -51,7 +53,8 @@ Luego de completarse la carga de la página del módulo, para evaluar a los resi
 1. Aparecerá el instrumento de evaluación, donde procederá a calificar todos los ítems de evaluación.  Conforme llene el instrumento, la calificación se generará en tiempo real (Figura 3).
 
 
-![Bandeja de entrada](images/Figura_3.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_3.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 3: Instrumento de evaluación de los residentes.</i>
   </div>
@@ -65,7 +68,8 @@ Luego de completarse la carga de la página del módulo, para evaluar a los resi
 4. Una calificados todos los ítems del instrumento y luego de verificar su calificación, proceda a registrar la evaluación activando el botón "Guardar" (Figura 4).
 
 
-![Bandeja de entrada](images/Figura_4.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_4.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 4: Botón de envío y registro de la evaluación.</i>
   </div>

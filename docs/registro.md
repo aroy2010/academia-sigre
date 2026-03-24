@@ -22,7 +22,8 @@ El registro de las solicitudes se realiza una vez que la documentación física 
 ### Módulo: Registro de Solicitudes
 Sea mediante la tarjeta *"Registro de Solicitudes"* (Figura 1) o activando en el menú **Gestión Institucional > Registro Solicitudes** (Figura 2), se ingresa al formulario de registro de solicitudes. 
 
-![Bandeja de entrada](images/Figura_A.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_A.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vista de la bandeja principal del sistema.</i>
   </div>
@@ -30,7 +31,8 @@ Sea mediante la tarjeta *"Registro de Solicitudes"* (Figura 1) o activando en el
 
 
 
-![Bandeja de entrada](images/Figura_B.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_B.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 2: Acceso al módulo de Registro de solicitudes a través del menú.</i>
   </div>
@@ -42,7 +44,8 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 1. Se activará el formulario solicitando el número de DNI, que una vez ingresado, se procederá a activar el botón **Buscar** (Figura 3).
 
 
-![Bandeja de entrada](images/Figura_C.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_C.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vista de la bandeja principal del sistema.</i>
   </div>
@@ -52,14 +55,16 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 	- *Solicitante nuevo*: Aparecerán el formulario completo, que incluye datos de identificación, formación, universidad, sede docente y de la solicitud a la que pretende acceder el solicitante (Ver Figuras 4 y 5).
 
 
-![Bandeja de entrada](images/Residente_nuevo.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Residente_nuevo.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 4: Mensaje indicando que el solicitante es nuevo.</i>
   </div>
 
 
 
-![Bandeja de entrada](images/Formulario_residente_nuevo.png){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Formulario_residente_nuevo.png){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 5: Formulario para registrar nuevo solicitante.</i>
   </div>
@@ -69,14 +74,16 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 - *Solicitud nueva*: Se desplegaran los mismos campos descritos previamente, pero con los datos del solicitante al que corresponde el DNI ingresado, solo los campos de la solicitud estarán en blanco y serán llenados con los datos de la nueva solicitud (Figura 6 y 7).
 
 
-![Bandeja de entrada](images/Residente_antiguo.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Residente_antiguo.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 6: Mensaje indicando que el solicitante es antiguo.</i>
   </div>
 
 
 
-![Bandeja de entrada](images/Formulario_residente_antiguo.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Formulario_residente_antiguo.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 7: Formulario para registrar solicitante antiguo.</i>
   </div>
@@ -108,7 +115,8 @@ Como la lista en la que se base la creación de cuentas de usuarios, puede no se
 3. **Respuesta a la solicitud:** En caso corresponda brindar el acceso al solicitante, en un plazo no mayor de 72 horas hábiles, el acceso será habilitado. El administrador del Sistema puede solicitar información complementaria en caso sea necesario.
 
 
-![Bandeja de entrada](images/Figura_D.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_D.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 8: Activar la solicitud para nuevo usuario.</i>
   </div>
@@ -116,7 +124,8 @@ Como la lista en la que se base la creación de cuentas de usuarios, puede no se
 
 
 
-![Bandeja de entrada](images/Figura_E.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_E.webp){: style="width: 80%; display: block; margin: 0 auto;" }
+
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 9: Formulario para solicitar registro nuevo usuario.</i>
   </div>
