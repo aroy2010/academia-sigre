@@ -56,9 +56,9 @@ Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diver
 
 1. Si desea revisar la nota de los residentes que ya cuentan con evaluación, active el recuadro verde con el número de residentes que ya cuentan con evaluación y aparecerá la información de los residentes evaluados (Figura 4). 
 
-![Bandeja de entrada]("images/Figura_iv.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_iv.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 1: Vista de la bandeja principal del sistema.</i>
+    <i>Figura 4: Vista del resultado sobre las evaluaciones de un servicio en un mes.</i>
   </div>
 
 

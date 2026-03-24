@@ -13,7 +13,7 @@ Antes de asignar a un residente, el administrador debe verificar los cupos libre
 2. En la parte superior, visualizará el tablero resumen de **Campos Clínicos**.
 3. Este tablero muestra el total de plazas, las ocupadas y las vacantes disponibles por cada servicio (ej. Cardiología Clínica, Cirugía Cardiovascular, Cuidados Intensivos).
 
-![Bandeja de entrada](images/asignacion-matriz.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/asignacion_cupos.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Tablero de control de disponibilidad por servicio.</i>
   </div>

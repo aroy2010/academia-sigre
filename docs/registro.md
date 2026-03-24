@@ -108,7 +108,7 @@ Como la lista en la que se base la creación de cuentas de usuarios, puede no se
 3. **Respuesta a la solicitud:** En caso corresponda brindar el acceso al solicitante, en un plazo no mayor de 72 horas hábiles, el acceso será habilitado. El administrador del Sistema puede solicitar información complementaria en caso sea necesario.
 
 
-![Bandeja de entrada](docs/images/Figura_D.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_D.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 8: Activar la solicitud para nuevo usuario.</i>
   </div>
@@ -116,7 +116,7 @@ Como la lista en la que se base la creación de cuentas de usuarios, puede no se
 
 
 
-![Bandeja de entrada](docs/images/Figura_E.webp){: style="display: block; margin: 0 auto;" }
+![Bandeja de entrada](images/Figura_E.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 9: Formulario para solicitar registro nuevo usuario.</i>
   </div>
