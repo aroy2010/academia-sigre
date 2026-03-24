@@ -15,7 +15,7 @@ Este módulo tiene los siguientes objetivos:
 ---
 
 > [!important] **REQUISITO PREVIO**
-> Para acceder al módulo **"Monitoreo"** es necesario ingresar al subsistema de [Gestión Institucional](acceso.md) con su usuario y contraseña.
+> Para acceder al módulo **"Monitoreo"** es necesario ingresar al subsistema de [Gestión Institucional](acceso_sistema.md) con su usuario y contraseña.
 
 
 ## 📉 1. Vista de Monitoreo
@@ -23,12 +23,10 @@ Este módulo tiene los siguientes objetivos:
 Una vez ingresado al subsistema Gestión Institucional, proceda a activar la tarjeta **"Monitoreo"** o a través del menú **Gestión Institucional > Monitoreo**, tal como se muestra en la figura 1.
 
 
-<div style="text-align: center;">
-  <img src="docs/images/Figura_i.webp" alt="Bandeja de entrada">
+![Bandeja de entrada](images/Figura_i.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vías de acceso al módulo de Monitoreo de evaluaciones.</i>
   </div>
-</div>
 
 
 Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diversas acciones que se describen a continuación.
@@ -36,8 +34,7 @@ Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diver
 1. Seleccionará la DIDAE, el Servicio, el Mes y el Año que desea revisar el cumplimiento de las evaluaciones y haga clic en el botón consultar (Figura 2).
 
 
-<div style="text-align: center;">
-  <img src="docs/images/Figura_ii.webp" alt="Bandeja de entrada">
+![Bandeja de entrada](images/Figura_ii.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 2: Selección de condiciones para revisar el cumplimiento de las evaluaciones en el módulo de Monitoreo.</i>
   </div>
@@ -50,36 +47,27 @@ Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diver
 3. Para evaluar a un residente, active el botón rojo que aparece en el lado derecho del recuadro del residente que desea evaluar (Figura 3) y aparecerá el instrumento de evaluación descrito en el módulo de [Evaluación](evaluacion_residentes.md).
 
 
-<div style="text-align: center;">
-  <img src="docs/images/Figura_iii.webp" alt="Bandeja de entrada">
+![Bandeja de entrada](images/Figura_iii.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 3: Consolidado de residentes según total, evaluados y por evaluar. Para evaluar los pendientes, active el recuadro rojo.</i>
   </div>
-</div>
 
 
 
-4. Si desea revisar la nota de los residentes que ya cuentan con evaluación, active el recuadro verde con el número de residentes que ya cuentan con evaluación y aparecerá la información de los residentes evaluados (Figura 4). 
+1. Si desea revisar la nota de los residentes que ya cuentan con evaluación, active el recuadro verde con el número de residentes que ya cuentan con evaluación y aparecerá la información de los residentes evaluados (Figura 4). 
 
-<div style="text-align: center;">
-  <img src="docs/images/Figura_iv.webp" alt="Bandeja de entrada">
+![Bandeja de entrada]("images/Figura_iv.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vista de la bandeja principal del sistema.</i>
   </div>
-</div>
 
 
-5. Para ver la nota, haga clic en el botón "Ver nota" que se encuentra en el lado derecho del recuadro con el nombre del residente y aparecerá una ventana emergente con la nota correspondiente (Figura 5).
+1. Para ver la nota, haga clic en el botón "Ver nota" que se encuentra en el lado derecho del recuadro con el nombre del residente y aparecerá una ventana emergente con la nota correspondiente (Figura 5).
 
 
-<div style="text-align: center;">
-  <img src="docs/images/Figura_vi.webp" alt="Bandeja de entrada">
+![Bandeja de entrada](images/Figura_vi.webp){: style="display: block; margin: 0 auto;" }
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 5: Secuencia para revisar la nota de un residente ya evaluado.</i>
   </div>
 </div>
-
-
-
-
 

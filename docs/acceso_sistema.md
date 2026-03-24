@@ -31,16 +31,16 @@ Para ingresar al sistema, usted debe contar con:
 1. Ingrese a la página principal del [SIGRE](https://script.google.com/macros/s/AKfycby3p6gTdLzHaeG0qV5uwrlIF7ZM8YkZ_TcAuBm7hC1JdP9clUHcg0wlQ93gP5toNdNy/exec).
 2. En la barra de navegación superior (esquina superior derecha), haga clic en el botón **"Acceso"**.
    
-   ![Acceso al SIGRE](images/boton_acceso.png)
+   ![Acceso al SIGRE](images/boton_acceso.png){: style="display: block; margin: 0 auto;" }
 
 3. Aparecerá una ventana emergente. Ingrese su **Correo Electrónico** y su **Contraseña**.
 4. Haga clic en el botón **"INGRESAR"**.
 
-   ![Ventana para credenciales](images/ventana_credenciales.png)
+   ![Ventana para credenciales](images/ventana_credenciales.png){: style="display: block; margin: 0 auto;" }
 
 5. Si su usuario y contraseña son correctas, aparecerá una ventana modal indicándole que sus credenciales han sido aceptadas.
 
-   ![Acceso exitoso (ventana modal)](images/ventana_modal.png)
+   ![Acceso exitoso (ventana modal)](images/ventana_modal.png){: style="display: block; margin: 0 auto;" }
 
 ---
 

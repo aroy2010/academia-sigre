@@ -30,7 +30,7 @@ Seleccione el módulo sobre el cual necesita asistencia:
 * [Evaluación de Residentes](evaluacion_residentes.md): Instrucciones para tutores y médicos asistentes sobre cómo calificar las competencias, habilidades y actitudes del residente al finalizar su rotación.
 
 ### 📊 4. Control y Seguimiento
-* [Monitoreo y Estadísticas](monitoreo-evaluaciones.md): Herramientas para jefes de servicio y coordinadores para visualizar el avance de las evaluaciones y el Rol de Rotaciones mensual.
+* [Monitoreo y Estadísticas](monitoreo_evaluaciones.md): Herramientas para jefes de servicio y coordinadores para visualizar el avance de las evaluaciones y el Rol de Rotaciones mensual.
 
 ---
 
