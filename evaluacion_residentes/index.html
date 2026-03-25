@@ -53,6 +53,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -843,10 +845,10 @@
 </div>
 <h2 id="1-panel-del-evaluador">📋 1. Panel del Evaluador</h2>
 <p>Al <a href="../acceso_sistema/">ingresar al sistema</a> con su rol de <strong>Evaluador</strong>, proceda a activar la tarjeta <strong>"Evaluación Residentes"</strong> o a través del menú <strong>Gestión Institucional &gt; Evaluación</strong>, tal como se muestra en la figura 1.</p>
-<p><img alt="Bandeja de entrada" src="../images/Figura_1.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 1: Vías de acceso al módulo de Evaluación Residentes.</i>
-  </div>
+<p><img alt="Bandeja de entrada" src="../images/Figura_1.webp" style="width: 70%; display: block; margin: 0 auto;" /></p>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 1: Vías de acceso al módulo de Evaluación Residentes.</i>
+</div>
 
 <p>Luego de completarse la carga de la página del módulo, para evaluar a los residentes deberá seguir los siguientes pasos:</p>
 <ol>
@@ -859,19 +861,19 @@
 </li>
 <li>En el recuadro de los nombres de los residentes a evaluar, active el botón <em>"Iniciar evaluación"</em> (Figura 2).</li>
 </ol>
-<p><img alt="Bandeja de entrada" src="../images/Figura_2.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 2: Vista del panel del evaluador del Módulo de Evaluación.</i>
-  </div>
+<p><img alt="Bandeja de entrada" src="../images/Figura_2.webp" style="width: 70%; display: block; margin: 0 auto;" /></p>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 2: Vista del panel del evaluador del Módulo de Evaluación.</i>
+</div>
 
 <ol>
 <li>Aparecerá el instrumento de evaluación, donde procederá a calificar todos los ítems de evaluación.  Conforme llene el instrumento, la calificación se generará en tiempo real (Figura 3).</li>
 </ol>
-<p><img alt="Bandeja de entrada" src="../images/Figura_3.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 3: Instrumento de evaluación de los residentes.</i>
-  </div>
+<p><img alt="Bandeja de entrada" src="../images/Figura_3.webp" style="width: 90%; display: block; margin: 0 auto;" /></p>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 3: Instrumento de evaluación de los residentes.</i>
 </div>
+
 <div class="admonition info">
 <p class="admonition-title">Cálculo Automático</p>
 <p>No es necesario que usted calcule promedios. Conforme vaya ingresando las notas parciales, el sistema SIGRE calculará automáticamente el <strong>Promedio Final</strong> en tiempo real al final del formulario.</p>
@@ -880,9 +882,9 @@
 <li>Una calificados todos los ítems del instrumento y luego de verificar su calificación, proceda a registrar la evaluación activando el botón "Guardar" (Figura 4).</li>
 </ol>
 <p><img alt="Bandeja de entrada" src="../images/Figura_4.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 4: Botón de envío y registro de la evaluación.</i>
-  </div>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 4: Botón de envío y registro de la evaluación.</i>
+</div>
 
 <p>Completados estos pasos, regresará al listado de residentes para seguir con la evaluación que corresponda.</p>
 <hr />
@@ -922,24 +924,92 @@
         
       </main>
       
-        <footer class="md-footer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+  .site-footer { 
+    background-color: #343a40; /* Fondo oscuro SIGRE */
+    color: #f8f9fa; 
+    padding: 40px 20px 20px 20px; 
+    font-size: 0.7rem; 
+    margin-top: 50px;
+    border-top: 4px solid #ffc107; /* Un toque de diseño superior amarillo */
+  }
+  .footer-container {
+    max-width: 1220px; /* Alineado con el ancho de MkDocs */
+    margin: 0 auto;
+  }
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .col-about { flex: 1 1 55%; }
+  .col-contact { flex: 1 1 35%; }
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
+  .footer-col-title { 
+    font-weight: bold; 
+    color: #ffc107; /* Títulos amarillos */
+    margin-bottom: 15px; 
+    text-transform: uppercase; 
+    font-size: 0.9rem; 
+    letter-spacing: 1px; 
+  }
+  .footer-text { 
+    line-height: 1.6; 
+    color: #e9ecef; 
+  }
+  .footer-contact i { 
+    width: 25px; 
+    color: #ffc107; 
+  }
+  .footer-credits { 
+    border-top: 1px solid #495057;
+    margin-top: 30px; 
+    padding-top: 20px; 
+    font-size: 0.7rem; 
+    color: #dee2e6; 
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Diseño adaptativo (Responsive) para celulares */
+  @media (max-width: 768px) {
+    .footer-row { flex-direction: column; }
+    .col-about, .col-contact { flex: 1 1 100%; }
+  }
+</style>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-row">
+      <div class="col-about">
+        <div class="footer-col-title">Sobre el Sistema</div>
+        <div class="footer-text">
+          SIGRE es una iniciativa de la Oficina de Apoyo a la Investigación y Docencia Especializada (OAIYDE) del INCOR, 
+          cuya finalidad es dinamizar la gestión del Programa de Residentado Institucional. 
+          La información que difunde este sistema es de dominio público[cite: 68].
+        </div>
+      </div>
+      <div class="col-contact">
+        <div class="footer-col-title">Contacto</div>
+        <div class="footer-text footer-contact">
+          <div><i class="fas fa-phone-alt"></i> Teléfono fijo: 411 1560 Anexo: 5911</div>
+          <div style="margin: 10px 0;"><i class="fab fa-whatsapp"></i> Whatsapp: 954 959 827</div>
+          <div><i class="fas fa-envelope"></i> oaiyde.incor@essalud.gob.pe</div>
+        </div>
+      </div>
+    </div>
   
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
+    <div class="footer-row">
+      <div class="footer-credits">
+        <p style="margin-bottom: 5px;">Diseño y desarrollo por el <strong>Dr. Adriel Olórtegui Yzú</strong>. Médico asistente de la OAIYDE - INCOR.</p>
+        <p style="margin: 0;">El SIGRE se ha desarrollando utilizando herramientas del ecosistema de Google.</p>
+      </div>
     </div>
   </div>
 </footer>
-      
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>

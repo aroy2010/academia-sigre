@@ -1,0 +1,61 @@
+/* 1. Color del encabezado SIGRE */
+:root {
+  --md-primary-fg-color: rgb(14, 110, 253); 
+}
+
+/* 2. Tamaño de letra del contenido a 18px */
+.md-typeset {
+  font-size: 18px;
+}
+
+/* 3. Título en Smallcaps (Mayúsculas pequeñas elegantes) */
+.md-header__title {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/* 4. Diseño de las etiquetas (Tags) */
+.md-typeset .md-tag {
+  background-color: #fffde7; /* Fondo amarillo tenue */
+  color: #0d47a1; /* Texto azul oscuro */
+  font-weight: normal; /* Sin negritas */
+  border: 1px solid #ffe082; /* Borde sutil */
+}
+
+/* 5. Colores diferenciados para los títulos (Nivel 1 y 2) */
+.md-typeset h1 {
+  color: rgb(14, 110, 253); /* Azul SIGRE */
+}
+.md-typeset h2 {
+  color: #800000; /* Guinda institucional */
+  border-bottom: 2px solid #eee; /* Línea separadora elegante */
+  padding-bottom: 5px;
+}
+.md-typeset h3 {
+  color: #424242; /* Gris oscuro para no sobrecargar */
+}
+
+/* 6. Diferenciación visual de la Tabla de Contenidos (Derecha) */
+.md-sidebar--secondary .md-sidebar__scrollwrap {
+  background-color: #f8f9fa; /* Fondo muy tenue */
+  border-left: 3px solid rgb(14, 110, 253); /* Línea azul SIGRE */
+  padding-left: 15px;
+  border-radius: 8px;
+}
+
+/* 7. Color Guinda/Uva para las leyendas de las figuras */
+/* Nota: Usamos !important para sobrescribir el #777 que pusimos en línea antes */
+.md-typeset div[style*="text-align: center; font-size: 0.85em"] {
+  color: #800000 !important; 
+}
+
+/* 8. Más espacio/aire para Callouts y Figuras */
+.md-typeset .admonition {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Sombra suave para despegarlo */
+}
+.md-typeset img {
+  margin-top: 2em;
+  border-radius: 8px; /* Bordes ligeramente redondeados para las capturas */
+}

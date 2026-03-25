@@ -49,6 +49,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -834,21 +836,21 @@
 <h3 id="b-modulo-de-asignacion-de-cupos">👨🏽‍⚕️ b. Módulo de Asignación de cupos</h3>
 <p>Sea mediante la tarjeta <em>"Asignación de cupos"</em> (Figura 1) o activando en el menú <strong>Gestión Institucional &gt; Asignación Cupos</strong> (Figura 2), se ingresa a la del módulo. </p>
 <p><img alt="Bandeja de entrada" src="../images/Asignacion_cupos.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 1: Vista de la bandeja principal del sistema.</i>
-  </div>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 1: Vista de la bandeja principal del sistema.</i>
+</div>
 
 <p><img alt="Bandeja de entrada" src="../images/Asignacion_cupos_menu.webp" /> {: style="width: 80%; display: block; margin: 0 auto;" }</p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 2: Acceso al módulo de Registro de solicitudes a través del menú.</i>
-  </div>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 2: Acceso al módulo de Registro de solicitudes a través del menú.</i>
+</div>
 
 <h3 id="c-visualizar-solicitudes-pendientes">📜 c. Visualizar solicitudes pendientes</h3>
 <p>Luego de ingresar al módulo <strong>Asignación de Cupos</strong>, aparecerá un recuadro con una lista desplegable, donde deberá seleccionar una DIDAE (Figura 3).</p>
 <p><img alt="Bandeja de entrada" src="../images/Selecciona_didae.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 3: Selección de la DIDAE para resolver las solicitudes pendientes.</i>
-  </div>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 3: Selección de la DIDAE para resolver las solicitudes pendientes.</i>
+</div>
 
 <p>Aparecerá un cuadro con el conteo de plazas por cada servicio para los 12 meses siguientes. El conteo de plazas mostrará hasta tres valores:</p>
 <ul>
@@ -858,18 +860,18 @@
 </ul>
 <p>El detalle lo podemos ver en la Figura 4.</p>
 <p><img alt="Bandeja de entrada" src="../images/Cuadro_cupos_pendientes.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 4: Cuadro de disponibilidad y solicitudes pendientes.</i>
-  </div>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 4: Cuadro de disponibilidad y solicitudes pendientes.</i>
+</div>
 
 <p>Proceder a resolver las solicitudes pendientes siguiendo el paso siguiente.</p>
 <h3 id="d-asignar-las-solicitudes-pendientes">🔃 d. Asignar las solicitudes pendientes</h3>
 <p>La asignación de las solicitudes pendientes, se inicia activando el recuadro con el número de solicitudes pendientes de cada mes, luego de lo cual aparecerá una ventana con la información de la o las solicitudes pendientes. </p>
 <p>La aceptación de la solicitud requiere hacer clic en el botón verde y el rechazo requiere seleccionar el motivo del rechazo y activar el botón rojo (Figura 5).</p>
 <p><img alt="Bandeja de entrada" src="../images/Figura_5.webp" style="width: 80%; display: block; margin: 0 auto;" /></p>
-<div style="font-size: 0.85em; color: #777; margin-top: 8px;">
-    <i>Figura 5: Secuencia para revisar las solicitudes pendientes. La parte derecha muestra la activación del recuadro amarillo y la parte izquierda la información y opciones para tomar determinar la asignación.</i>
-  </div>
+<div style="text-align: center; font-size: 0.85em; color: #777; margin-top: 8px;">
+  <i>Figura 5: Secuencia para revisar las solicitudes pendientes. La parte derecha muestra la activación del recuadro amarillo y la parte izquierda la información y opciones para tomar determinar la asignación.</i>
+</div>
 
 <p>Culminados estos pasos, la solicitud se encuentra resuelta.</p>
 <div class="admonition tip">
@@ -912,24 +914,92 @@
         
       </main>
       
-        <footer class="md-footer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+  .site-footer { 
+    background-color: #343a40; /* Fondo oscuro SIGRE */
+    color: #f8f9fa; 
+    padding: 40px 20px 20px 20px; 
+    font-size: 0.7rem; 
+    margin-top: 50px;
+    border-top: 4px solid #ffc107; /* Un toque de diseño superior amarillo */
+  }
+  .footer-container {
+    max-width: 1220px; /* Alineado con el ancho de MkDocs */
+    margin: 0 auto;
+  }
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .col-about { flex: 1 1 55%; }
+  .col-contact { flex: 1 1 35%; }
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
+  .footer-col-title { 
+    font-weight: bold; 
+    color: #ffc107; /* Títulos amarillos */
+    margin-bottom: 15px; 
+    text-transform: uppercase; 
+    font-size: 0.9rem; 
+    letter-spacing: 1px; 
+  }
+  .footer-text { 
+    line-height: 1.6; 
+    color: #e9ecef; 
+  }
+  .footer-contact i { 
+    width: 25px; 
+    color: #ffc107; 
+  }
+  .footer-credits { 
+    border-top: 1px solid #495057;
+    margin-top: 30px; 
+    padding-top: 20px; 
+    font-size: 0.7rem; 
+    color: #dee2e6; 
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Diseño adaptativo (Responsive) para celulares */
+  @media (max-width: 768px) {
+    .footer-row { flex-direction: column; }
+    .col-about, .col-contact { flex: 1 1 100%; }
+  }
+</style>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-row">
+      <div class="col-about">
+        <div class="footer-col-title">Sobre el Sistema</div>
+        <div class="footer-text">
+          SIGRE es una iniciativa de la Oficina de Apoyo a la Investigación y Docencia Especializada (OAIYDE) del INCOR, 
+          cuya finalidad es dinamizar la gestión del Programa de Residentado Institucional. 
+          La información que difunde este sistema es de dominio público[cite: 68].
+        </div>
+      </div>
+      <div class="col-contact">
+        <div class="footer-col-title">Contacto</div>
+        <div class="footer-text footer-contact">
+          <div><i class="fas fa-phone-alt"></i> Teléfono fijo: 411 1560 Anexo: 5911</div>
+          <div style="margin: 10px 0;"><i class="fab fa-whatsapp"></i> Whatsapp: 954 959 827</div>
+          <div><i class="fas fa-envelope"></i> oaiyde.incor@essalud.gob.pe</div>
+        </div>
+      </div>
+    </div>
   
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
+    <div class="footer-row">
+      <div class="footer-credits">
+        <p style="margin-bottom: 5px;">Diseño y desarrollo por el <strong>Dr. Adriel Olórtegui Yzú</strong>. Médico asistente de la OAIYDE - INCOR.</p>
+        <p style="margin: 0;">El SIGRE se ha desarrollando utilizando herramientas del ecosistema de Google.</p>
+      </div>
     </div>
   </div>
 </footer>
-      
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
