@@ -4,6 +4,14 @@
 
 - /Users/aroy1962/Documents/ObsidianVaults/Sistemas_AROY/99_MkDocs_site/01 Guía SIGRE
 
+## Blindaje de versiones (pinning)
+
+1. Crear/actualizar entorno pinneado:
+   - ./sigre_setup_docs_env.sh
+2. Versiones fijadas en:
+   - requirements-docs.txt
+3. Los scripts operativos usan automaticamente ./.venv-docs si existe.
+
 ## Que script usar segun el caso
 
 - Quiero compilar o previsualizar sin publicar: ./sigre_docs.sh build o ./sigre_docs.sh serve
@@ -33,3 +41,4 @@
 
 - ./sigre_docs.sh help
 - ./sigre_release.sh help
+- ./sigre_setup_docs_env.sh

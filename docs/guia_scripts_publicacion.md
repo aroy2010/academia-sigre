@@ -13,6 +13,13 @@ Ruta oficial:
 - ./sigre_docs.sh
 - ./sigre_publish.sh
 - ./sigre_release.sh
+- ./sigre_setup_docs_env.sh
+
+## Blindaje de versiones
+
+- Las dependencias quedan fijadas en `requirements-docs.txt`.
+- Para crear o reconstruir el entorno estable, ejecutar `./sigre_setup_docs_env.sh`.
+- Si existe `./.venv-docs`, los scripts operativos lo usan automaticamente.
 
 ## Cuando usar cada script
 
@@ -44,3 +51,4 @@ Antes de publicar:
 
 - `./sigre_docs.sh help`
 - `./sigre_release.sh help`
+- `./sigre_setup_docs_env.sh`

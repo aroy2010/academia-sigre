@@ -2,7 +2,12 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PYTHON_BIN="/usr/local/bin/python3"
+
+if [[ -x "$ROOT_DIR/.venv-docs/bin/python" ]]; then
+  PYTHON_BIN="$ROOT_DIR/.venv-docs/bin/python"
+else
+  PYTHON_BIN="/usr/local/bin/python3"
+fi
 
 usage() {
   cat <<'EOF'
@@ -26,11 +31,18 @@ validate_environment() {
 
   if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
     echo "Error: No se encontro Python en $PYTHON_BIN"
+    echo "Sugerencia: Ejecuta ./sigre_setup_docs_env.sh"
     exit 1
   fi
 
   if [[ ! -f "mkdocs.yml" ]]; then
     echo "Error: No se encontro mkdocs.yml en la carpeta actual."
+    exit 1
+  fi
+
+  if ! "$PYTHON_BIN" -m mkdocs --version >/dev/null 2>&1; then
+    echo "Error: MkDocs no esta disponible en el entorno actual."
+    echo "Sugerencia: Ejecuta ./sigre_setup_docs_env.sh"
     exit 1
   fi
 

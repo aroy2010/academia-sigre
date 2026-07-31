@@ -3,7 +3,13 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DOCS_DIR="$ROOT_DIR"
-PYTHON_BIN="/usr/local/bin/python3"
+
+if [[ -x "$ROOT_DIR/.venv-docs/bin/python" ]]; then
+  PYTHON_BIN="$ROOT_DIR/.venv-docs/bin/python"
+else
+  PYTHON_BIN="/usr/local/bin/python3"
+fi
+
 MKDOCS_CMD=("$PYTHON_BIN" -m mkdocs)
 
 usage() {
@@ -17,18 +23,39 @@ Uso:
 
 Notas:
 - El script debe ejecutarse desde la raíz del sitio MkDocs.
-- Asume que MkDocs Material ya está instalado en /usr/local/bin/python3.
+- Si existe ./.venv-docs, ese entorno tiene prioridad para ejecutar MkDocs.
 - El comando deploy usa la rama main del remoto origin.
 EOF
 }
 
-build_site() {
+validate_environment() {
   cd "$DOCS_DIR"
+
+  if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
+    echo "Error: No se encontro Python en $PYTHON_BIN"
+    echo "Sugerencia: Ejecuta ./sigre_setup_docs_env.sh"
+    exit 1
+  fi
+
+  if [[ ! -f "mkdocs.yml" ]]; then
+    echo "Error: No se encontro mkdocs.yml en la carpeta actual."
+    exit 1
+  fi
+
+  if ! "$PYTHON_BIN" -m mkdocs --version >/dev/null 2>&1; then
+    echo "Error: MkDocs no esta disponible en el entorno actual."
+    echo "Sugerencia: Ejecuta ./sigre_setup_docs_env.sh"
+    exit 1
+  fi
+}
+
+build_site() {
+  validate_environment
   "${MKDOCS_CMD[@]}" build
 }
 
 serve_site() {
-  cd "$DOCS_DIR"
+  validate_environment
   "${MKDOCS_CMD[@]}" serve --dev-addr 127.0.0.1:8000
 }
 
