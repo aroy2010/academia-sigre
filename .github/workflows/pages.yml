@@ -5,6 +5,19 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      target_ref:
+        description: 'Rama o tag para compilar (por ejemplo: main o feature/docs)'
+        required: true
+        default: 'main'
+      run_mode:
+        description: 'build-only solo compila; deploy publica Pages (solo permitido con main)'
+        required: true
+        type: choice
+        options:
+          - build-only
+          - deploy
+        default: build-only
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -24,6 +37,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.target_ref || github.ref }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -41,12 +56,20 @@ jobs:
       - name: Build MkDocs site
         run: ./.venv-docs/bin/python -m mkdocs build
 
+      - name: Build summary
+        run: |
+          echo "Workflow: ${{ github.workflow }}"
+          echo "Evento: ${{ github.event_name }}"
+          echo "Ref compilada: ${{ github.event_name == 'workflow_dispatch' && inputs.target_ref || github.ref }}"
+          echo "Modo: ${{ github.event_name == 'workflow_dispatch' && inputs.run_mode || 'deploy' }}"
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
   deploy:
+    if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.run_mode == 'deploy' && inputs.target_ref == 'main') }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
