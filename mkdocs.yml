@@ -55,6 +55,7 @@ nav:
       - Evaluación de Residentes: evaluacion_residentes.md
       - Monitoreo de las Evaluaciones: monitoreo_evaluaciones.md
       - Criterios de prelación: prelacion_solicitudes.md
+      - Guía de scripts de publicación: guia_scripts_publicacion.md
 
 markdown_extensions:
   - admonition
