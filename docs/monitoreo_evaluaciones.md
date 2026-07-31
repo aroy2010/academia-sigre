@@ -15,7 +15,7 @@ Este módulo tiene los siguientes objetivos:
 ---
 
 > [!important] **REQUISITO PREVIO**
-> Para acceder al módulo **"Monitoreo"** es necesario ingresar al subsistema de [Gestión Institucional](acceso.md) con su usuario y contraseña.
+> Para acceder al módulo **"Monitoreo"** es necesario ingresar al subsistema de [Gestión Institucional](acceso_sistema.md) con su usuario y contraseña.
 
 
 ## 📉 1. Vista de Monitoreo
@@ -24,7 +24,7 @@ Una vez ingresado al subsistema Gestión Institucional, proceda a activar la tar
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_i.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_i.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vías de acceso al módulo de Monitoreo de evaluaciones.</i>
   </div>
@@ -37,7 +37,7 @@ Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diver
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_ii.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_ii.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 2: Selección de condiciones para revisar el cumplimiento de las evaluaciones en el módulo de Monitoreo.</i>
   </div>
@@ -51,7 +51,7 @@ Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diver
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_iii.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_iii.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 3: Consolidado de residentes según total, evaluados y por evaluar. Para evaluar los pendientes, active el recuadro rojo.</i>
   </div>
@@ -62,7 +62,7 @@ Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diver
 4. Si desea revisar la nota de los residentes que ya cuentan con evaluación, active el recuadro verde con el número de residentes que ya cuentan con evaluación y aparecerá la información de los residentes evaluados (Figura 4). 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_iv.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_iv.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vista de la bandeja principal del sistema.</i>
   </div>
@@ -73,7 +73,7 @@ Aparecerá la página de "Monitoreo de Evaluaciones", donde puede realizar diver
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_vi.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_vi.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 5: Secuencia para revisar la nota de un residente ya evaluado.</i>
   </div>

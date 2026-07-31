@@ -23,7 +23,7 @@ El registro de las solicitudes se realiza una vez que la documentación física 
 Sea mediante la tarjeta *"Registro de Solicitudes"* (Figura 1) o activando en el menú **Gestión Institucional > Registro Solicitudes** (Figura 2), se ingresa al formulario de registro de solicitudes. 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_A.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_A.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vista de la bandeja principal del sistema.</i>
   </div>
@@ -32,7 +32,7 @@ Sea mediante la tarjeta *"Registro de Solicitudes"* (Figura 1) o activando en el
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_B.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_B.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 2: Acceso al módulo de Registro de solicitudes a través del menú.</i>
   </div>
@@ -46,7 +46,7 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_C.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_C.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 1: Vista de la bandeja principal del sistema.</i>
   </div>
@@ -59,7 +59,7 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Residente_nuevo.webp" alt="Bandeja de entrada">
+  <img src="images/Residente_nuevo.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 4: Mensaje indicando que el solicitante es nuevo.</i>
   </div>
@@ -68,7 +68,7 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Formulario_residente_nuevo.png" alt="Bandeja de entrada">
+  <img src="images/Formulario_residente_nuevo.png" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 5: Formulario para registrar nuevo solicitante.</i>
   </div>
@@ -80,7 +80,7 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Residente_antiguo.webp" alt="Bandeja de entrada">
+  <img src="images/Residente_antiguo.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 6: Mensaje indicando que el solicitante es antiguo.</i>
   </div>
@@ -89,7 +89,7 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Formulario_residente_antiguo.webp" alt="Bandeja de entrada">
+  <img src="images/Formulario_residente_antiguo.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 7: Formulario para registrar solicitante antiguo.</i>
   </div>
@@ -104,7 +104,7 @@ Luego de activa, se iniciará el proceso de registro, para lo cual se seguirán 
 > Utilice la caja de búsqueda en la parte superior de la tabla para encontrar rápidamente a un residente por su DNI o apellido.
 
 ### Asignación de los cupos
-La solicitud registrada deberá ser revisada y contrastada con los registros de rotaciones asignadas y se decidirá el otorgamiento en la OAIYDE. El módulo para este procesamiento se desarrolla en [Asignación de Cupos](3-asignacion.md).
+La solicitud registrada deberá ser revisada y contrastada con los registros de rotaciones asignadas y se decidirá el otorgamiento en la OAIYDE. El módulo para este procesamiento se desarrolla en [Asignación de Cupos](asignacion.md).
 
 
 ---
@@ -123,7 +123,7 @@ Como la lista en la que se base la creación de cuentas de usuarios, puede no se
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_D.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_D.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 8: Activar la solicitud para nuevo usuario.</i>
   </div>
@@ -132,7 +132,7 @@ Como la lista en la que se base la creación de cuentas de usuarios, puede no se
 
 
 <div style="text-align: center;">
-  <img src="docs/images/Figura_E.webp" alt="Bandeja de entrada">
+  <img src="images/Figura_E.webp" alt="Bandeja de entrada">
   <div style="font-size: 0.85em; color: #777; margin-top: 8px;">
     <i>Figura 9: Formulario para solicitar registro nuevo usuario.</i>
   </div>

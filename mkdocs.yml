@@ -47,6 +47,14 @@ nav:
   - FAQ y glosario: 04_FAQ_y_Glosario.md
   - Versión Google Docs: 05_Version_Google_Docs.md
   - Créditos: creditos.md
+  - Guías operativas:
+      - Acceso y Seguridad: acceso_sistema.md
+      - Registro de Solicitudes y Usuarios: registro.md
+      - Asignación de Cupos: asignacion.md
+      - Disponibilidad: disponibilidad.md
+      - Evaluación de Residentes: evaluacion_residentes.md
+      - Monitoreo de las Evaluaciones: monitoreo_evaluaciones.md
+      - Criterios de prelación: prelacion_solicitudes.md
 
 markdown_extensions:
   - admonition
