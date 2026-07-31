@@ -1,0 +1,107 @@
+:root {
+    --md-primary-fg-color: #1E5A9C;
+    --md-primary-fg-color--light: #3E8FD6;
+    --md-primary-fg-color--dark: #153d69;
+    --md-accent-fg-color: #3E8FD6;
+    --sigre-sky-1: #EAF6FF;
+    --sigre-sky-2: #BFE3FA;
+    --sigre-sky-3: #7FC4F2;
+    --sigre-sky-4: #3E8FD6;
+    --sigre-sky-5: #1E5A9C;
+    --sigre-ink: #17324d;
+    --sigre-muted: #5b6b7a;
+}
+
+.md-header {
+    background: linear-gradient(135deg, var(--sigre-sky-5), var(--sigre-sky-4));
+}
+
+.md-tabs {
+    background: linear-gradient(135deg, var(--sigre-sky-5), var(--sigre-sky-4));
+}
+
+.md-main {
+    background:
+        radial-gradient(circle at top right, rgba(127, 196, 242, 0.20), transparent 28%),
+        linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+    color: var(--sigre-sky-5);
+}
+
+.md-typeset a {
+    color: var(--sigre-sky-4);
+}
+
+.md-typeset a:hover {
+    color: var(--sigre-sky-5);
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 0.9rem;
+    border-left: 0.35rem solid var(--sigre-sky-4);
+    box-shadow: 0 10px 30px rgba(30, 90, 156, 0.08);
+}
+
+.md-typeset .note,
+.md-typeset .tip,
+.md-typeset .info {
+    background: linear-gradient(180deg, #ffffff, var(--sigre-sky-1));
+}
+
+.md-typeset table {
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.md-typeset table th {
+    background: var(--sigre-sky-5);
+    color: #fff;
+}
+
+.hero-card {
+    background: linear-gradient(135deg, var(--sigre-sky-1), #ffffff 62%);
+    border: 1px solid rgba(62, 143, 214, 0.18);
+    border-radius: 1rem;
+    box-shadow: 0 12px 36px rgba(30, 90, 156, 0.08);
+    padding: 1.25rem;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.hero-link {
+    display: block;
+    padding: 1rem 1.1rem;
+    border-radius: 0.9rem;
+    background: #fff;
+    border: 1px solid rgba(62, 143, 214, 0.16);
+    text-decoration: none;
+    color: var(--sigre-ink) !important;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.hero-link:hover {
+    transform: translateY(-2px);
+    border-color: var(--sigre-sky-4);
+    box-shadow: 0 14px 34px rgba(30, 90, 156, 0.12);
+}
+
+.hero-link strong {
+    color: var(--sigre-sky-5);
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+    .hero-card {
+        padding: 1rem;
+    }
+}

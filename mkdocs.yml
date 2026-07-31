@@ -1,0 +1,81 @@
+site_name: Academia SIGRE
+site_description: Manual institucional del Sistema de Gestión del Residentado del INCOR
+site_author: INCOR - OAIYDE
+site_url: https://aroy2010.github.io/academia-sigre/
+repo_url: https://github.com/aroy2010/academia-sigre
+repo_name: academia-sigre
+edit_uri: blob/main/docs/
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: es
+  icon:
+    logo: material/book-open-page-variant
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+nav:
+  - Inicio: index.md
+  - Manual completo: 00_Manual_Institucional.md
+  - Presentación y diagramas: 01_Presentacion_y_Diagramas.md
+  - Guías por tipo de usuario: 02_Guias_por_Tipo_de_Usuario.md
+  - Tutoriales por módulo: 03_Tutoriales_por_Modulo.md
+  - FAQ y glosario: 04_FAQ_y_Glosario.md
+  - Versión Google Docs: 05_Version_Google_Docs.md
+  - Créditos: creditos.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
